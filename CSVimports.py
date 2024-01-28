@@ -98,8 +98,6 @@ class RowHandler:
             f.write(out)
         
 class Format:
-    def LoadId(number: int, length = 18, prefix = '01' ) -> str:
-        return prefix + f'{str(number).zfill(length)}'
     def Now():
         return str(dt.now())[:23]
 
