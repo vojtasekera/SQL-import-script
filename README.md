@@ -1,0 +1,1 @@
+I was done with the import wizard for MS SQL, this script will turn a CSV into an import script, also allowing operations to be performed on the values between columns and defining artificial columns. Use the main.py as shown within there.
